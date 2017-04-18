@@ -6,7 +6,7 @@ func BubbleSort(elements []int) []int {
 
 	for i := 0; i < nbElements - 1; i++ {
 		if elements[i] > elements[i + 1] {
-			swap(elements, i, i + 1)
+			elements[i], elements[i + 1] = elements[i + 1], elements[i]
 			swapped = true
 		}
 	}
@@ -14,14 +14,6 @@ func BubbleSort(elements []int) []int {
 	if swapped {
 		return BubbleSort(elements)
 	}
-
-	return elements
-}
-
-func swap(elements []int, x, y int) []int {
-	tmp := elements[x]
-	elements[x] = elements[y]
-	elements[y] = tmp
 
 	return elements
 }
