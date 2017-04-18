@@ -11,5 +11,5 @@ func TestBubbleSort(t *testing.T) {
 
 	BubbleSort(elements)
 
-	assert.Equal(t, expected, elements, "Expectations does not match the actual values.", expected, elements)
+	assert.Equal(t, expected, elements, "Expectations do not match the actual values.", expected, elements)
 }
