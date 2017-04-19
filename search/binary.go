@@ -6,7 +6,7 @@ import (
 	"fmt"
 )
 
-func BinarySearch(needle int, haystack []int) (error, int) {
+func BinarySearch(needle int, haystack []int) (int, error) {
 	lowerBound := 0
 	upperBound := len(haystack) - 1
 
@@ -14,11 +14,11 @@ func BinarySearch(needle int, haystack []int) (error, int) {
 }
 
 // Recursive search method
-func binarySearch(needle int, haystack []int, lowerBound, upperBound int) (error, int) {
+func binarySearch(needle int, haystack []int, lowerBound, upperBound int) (int, error) {
 	midIndex := int(math.Floor(float64((lowerBound + upperBound) / 2)))
 
 	if lowerBound > upperBound {
-		return errors.New(fmt.Sprintf("Needle \"%v\" not found", needle)), 0
+		return 0, errors.New(fmt.Sprintf("Needle \"%v\" not found", needle))
 	}
 
 	if haystack[midIndex] > needle {
@@ -29,5 +29,5 @@ func binarySearch(needle int, haystack []int, lowerBound, upperBound int) (error
 		return binarySearch(needle, haystack, midIndex + 1, upperBound)
 	}
 
-	return nil, midIndex
+	return midIndex, nil
 }
