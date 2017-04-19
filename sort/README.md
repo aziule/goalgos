@@ -1,4 +1,4 @@
-# goalgo - Sorting
+# goalgo - Sort
 
-## Bubble sorting
+## Bubble sort
 In progress
