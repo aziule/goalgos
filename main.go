@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	fmt.Print("See README.md for more information!")
+	fmt.Println("See README.md for more information!")
 }
