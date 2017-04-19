@@ -2,7 +2,7 @@ package sort
 
 func BubbleSort(elements []int) []int {
 	nbElements := len(elements)
-	swapped := false;
+	swapped := false
 
 	for i := 0; i < nbElements - 1; i++ {
 		if elements[i] > elements[i + 1] {
