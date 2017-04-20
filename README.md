@@ -1,5 +1,5 @@
 # goalgo
-Basic algorithms written in Golang for education purpose.
+Basic algorithms written in Golang for educational purpose.
 
 All algorithms come with an explanation and their big O notation.
 
