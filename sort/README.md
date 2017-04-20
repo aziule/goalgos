@@ -1,7 +1,9 @@
 # goalgo - Sort
 
 ## [Bubble](./bubble.go)
-In progress
+[Wikipedia page](https://en.wikipedia.org/wiki/Bubble_sort)
+
 
 ## [Selection](./selection.go)
-In progress
+[Wikipedia page](https://en.wikipedia.org/wiki/Selection_sort)
+

@@ -1,4 +1,4 @@
 # goalgo - List Search
 
 ## [Binary](./binary.go)
-In progress
+[Wikipedia page](https://en.wikipedia.org/wiki/Binary_search_algorithm)
