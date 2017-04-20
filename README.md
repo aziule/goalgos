@@ -5,15 +5,15 @@ All algorithms come with an explanation and their big O notation.
 
 # Algorithms
 ## [Sort](./sort/README.md)
-- [x] Bubble sort
+- [x] [Bubble sort](./sort/bubble.go)
 - [ ] Heap sort
 - [ ] Insertion sort
 - [ ] Merge sort
 - [ ] Quick sort
-- [x] Selection sort
+- [x] [Selection sort](./sort/selection.go)
 
 ## [List Search](./search/README.md)
-- [x] Binary search
+- [x] [Binary search](./search/binary.go)
 - [ ] Linear search
 
 ## Graph Search
