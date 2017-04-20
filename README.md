@@ -10,7 +10,7 @@ All algorithms come with an explanation and their big O notation.
 - [ ] Insertion sort
 - [ ] Merge sort
 - [ ] Quick sort
-- [ ] Selection sort
+- [x] Selection sort
 
 ## [List Search](./search/README.md)
 - [x] Binary search
