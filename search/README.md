@@ -1,4 +1,4 @@
-# goalgo - Search
+# goalgo - List Search
 
-## Binary search
+## [Binary](./binary.go)
 In progress

@@ -1,4 +1,7 @@
 # goalgo - Sort
 
-## Bubble sort
+## [Bubble](./bubble.go)
+In progress
+
+## [Selection](./selection.go)
 In progress
