@@ -4,7 +4,8 @@ Basic algorithms written in Golang for educational purpose.
 All algorithms come with an explanation and their big O notation.
 
 # Algorithms
-## [Sort](./sort/README.md)
+## Sort
+[Sorting algorithms README.md](./sort/README.md)
 - [x] [Bubble sort](./sort/bubble.go)
 - [ ] Heap sort
 - [ ] Insertion sort
@@ -12,7 +13,8 @@ All algorithms come with an explanation and their big O notation.
 - [ ] Quick sort
 - [x] [Selection sort](./sort/selection.go)
 
-## [List Search](./search/README.md)
+## List Search
+[List search algorithms README.md](./search/README.md)
 - [x] [Binary search](./search/binary.go)
 - [ ] Linear search
 
