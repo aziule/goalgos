@@ -1,4 +1,4 @@
-# goalgo - Sort
+# goalgos - Sort
 
 ## [Bubble](./bubble.go)
 [Wikipedia page](https://en.wikipedia.org/wiki/Bubble_sort)

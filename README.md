@@ -1,4 +1,4 @@
-# goalgo
+# goalgos
 Basic algorithms written in Golang for educational purpose.
 
 All algorithms come with an explanation and their big O notation.
