@@ -19,10 +19,6 @@ func TestSort(t *testing.T) {
 	for _, algo := range sortAlgorithms {
 		elements := []int{5, 1, 4, 3, 7}
 		algo(elements)
-		assertEqual(t, expected, elements)
+		assert.Equal(t, expected, elements, fmt.Sprintf("Expectations do not match the actual values."), expected, elements)
 	}
-}
-
-func assertEqual(t assert.TestingT, expected, actual interface{}) {
-	assert.Equal(t, expected, actual, fmt.Sprintf("Expectations do not match the actual values."), expected, actual)
 }
