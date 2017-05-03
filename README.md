@@ -17,8 +17,8 @@ Basic algorithms written in Golang for educational purpose.
 
 | Name | Performances | Link |
 |---|---|---|
-| [Binary search](./search/binary.go) | Θ(log(n)) | [Wikipedia](https://en.wikipedia.org/wiki/Binary_search_algorithm) |
-| Linear search | | |
+| [Binary search](./search/binary.go) | O(log(n)) | [Wikipedia](https://en.wikipedia.org/wiki/Binary_search_algorithm) |
+| [Linear search](./search/linear.go) | O(n) | [Wikipedia](https://en.wikipedia.org/wiki/Linear_search) |
 
 ## Graph Search
 
