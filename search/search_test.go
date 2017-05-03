@@ -9,6 +9,7 @@ import (
 // List of algorithms to be tested
 var searchAlgorithms = []func(needle int, haystack []int) (int , error) {
 	BinarySearch,
+	LinearSearch,
 }
 
 var haystack = []int{1, 2, 3, 4, 5}
